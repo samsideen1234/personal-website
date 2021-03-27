@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+  
+    overflow-x: hidden;
+    background-color:#686de0;
+ 
+   
+}
+ header{
+     text-align: center;
+     background-color:#16a085;
+     padding: 2rem;
+ }
+
+
+ header h1{
+     margin-top: 1rem;
+    color:hotpink;
+    font-family: 'Roboto', sans-serif;
+}
+
+header h1 strong{
+    font-weight: 1rem;
+    background-color:#FC427B;
+    padding: 2px;
+    margin: 2px;
+    color: white;
+}
+
+
+.banner {
+    width: 100vw;
+    height: 50vh;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.8 );
+
+  
+}
+
+
+
+
+.banner img{
+  width: 100vw;
+  height: 50vh;
+  opacity: 0.5;
+  animation-name: scale;
+  animation-duration: 25s;
+
+
+}
+
+
+@keyframes scale{
+    0%{
+
+        transform: scale(3);
+    }
+
+
+    100%{
+        transform: scale(1);
+
+    }
+}
+
+
+
+#bannerheading{
+    color: white;
+    position: relative;
+    top: 12rem;
+    left: 3rem;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+/* start of media query*/
+
+
+
+/* end of media query*/
+
+.myself{
+    text-align: center;
+    margin-top: 1rem;
+    background-color: #bdc3c7;
+    padding: 1rem;
+}
+
+.myself img{
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.myself img:hover{
+  
+    opacity: 1;
+}
+
+#skillsheading{
+    text-align: center;
+    margin: 1rem;
+    font-family:sans-serif ;
+    
+}
+
+.skillsbar{
+    background-color: #2c3e50;
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    padding: 2rem;
+ 
+    
+}
+
+
+.container {
+    width: 50%;
+    background-color: #ddd;
+    border-radius: 00.5rem;
+
+
+   
+  }
+
+  .para{
+      color: white;
+      font-family: 'Roboto', sans-serif;
+     
+  }
+
+ 
+  
+  .skills {
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    border-radius: 00.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .html {
+    width: 90%; background-color: #4CAF50;
+  
+}
+  .css {
+    width: 80%; background-color: #2196F3;
+}
+  .js {
+    width: 65%; background-color: #f44336;
+
+}
+  .php {
+    width: 60%; background-color: #808080;
+}
+
+
+footer{
+    background-color: #2f3542;
+    height: 50vh;
+    margin-top: 2rem;
+}
+
+ footer .footercontainer{
+      display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    position: relative;
+top: 2rem;
+font-family: sans-serif;
+}
+
+footer .footercontainer .box1{
+background-color: #ffffff ;
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  opacity: 0.5;
+ 
+}
+
+
+footer .footercontainer .box1:hover{
+  opacity: 1;
+  width: 21rem;
+  height: 21rem;
+  }
+  
+
+footer .footercontainer .box1 p{
+   text-align: justify;
+   
+  }
+
+footer .footercontainer .box1 button{
+  margin-top: 2rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  background-color:#5f27cd;
+  font-size: 1.5rem;
+   cursor: pointer;
+   color: white;
+  }
+
+  footer .footercontainer .box2 p{
+    text-align: justify;
+    
+   }
+
+footer .footercontainer .box2{
+    background-color:greenyellow;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+
+
+  
+footer .footercontainer .box2:hover{
+  opacity: 1;
+  width: 21rem;
+  height: 21rem;
+  }
+  footer .footercontainer .box2 button{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color:#5f27cd;
+    font-size: 1.5rem;
+     cursor: pointer;
+     color: white;
+    }
+  
+  footer .footercontainer .box3{
+    background-color: #ffffff;
+    cursor: pointer;
+    width: 20rem;
+  height: 20rem;
+  text-align: center;
+  padding: 1rem;
+  opacity: 0.5;
+  }
+
+  
+footer .footercontainer .box3:hover{
+  opacity: 1;
+  width: 21rem;
+  height: 21rem;
+  }
+  footer .footercontainer .box3 p{
+    text-align: justify;
+    
+   }
+
+  footer .footercontainer .box3 button{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color:#5f27cd;
+    font-size: 1.5rem;
+     cursor: pointer;
+     color: white;
+     
+    }
+  
+  footer .footercontainer .box4{
+    background-color: #ffffff;
+     width: 20rem;
+  height: 20rem;
+  text-align: center;
+  padding: 1rem;
+  cursor: pointer;
+  opacity: 0.5;
+  }
+
+  
+footer .footercontainer .box4:hover{
+  opacity: 1;
+  width: 21rem;
+  height: 21rem;
+  }
+
+  footer .footercontainer .box4 button{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color:#5f27cd;
+    font-size: 1.5rem;
+     cursor: pointer;
+     color: white;
+     
+    }
+  
+    footer .footercontainer .box4 p{
+        text-align: justify;
+        
+       }
+
+/* start of media query*/
+       @media screen and (max-width:942px){
+
+        #bannerheading{
+            position: relative;
+            top: 12rem;
+            left: 1rem;
+        
+         
+        }
+    
+        .skills {
+          
+            padding-top: 0.2rem;
+            padding-bottom: 0.2rem;
+            
+          }
+    
+         
+        footer{
+      overflow:auto;
+          height: 100%;
+          
+      }
+
+
+    footer .footercontainer .box1{
+        width: 12rem;
+        height: 12rem;
+        margin-bottom: 1rem;
+        overflow:auto;
+       
+      }
+      
+
+    footer .footercontainer .box2{
+      width: 12rem;
+      height: 12rem;
+      margin-bottom: 1rem;
+      overflow:auto;
+     
+     
+    }
+
+   
+      footer .footercontainer .box3{
+        width: 12rem;
+        height: 12rem;
+        overflow:auto;
+        margin-bottom: 1rem;
+       
+      }
+      footer .footercontainer .box4{
+        width: 12rem;
+        height: 12rem;
+        overflow:auto;
+        margin-bottom: 1rem;
+       
+      }
+
+      .box1 p{
+        display: none;
+      }
+      .box2 p{
+        display: none;
+      }
+      .box3 p{
+        display: none;
+      }
+      .box4 p{
+        display: none;
+      }
+    }
+    
+
+
+@media screen and (max-width:315px){
+
+  header h1{
+ display: none;
+ }
+ 
+ header{
+overflow: hidden;
+}
+
+.myself{
+overflow: hidden;
+}
+
+
+}
+
